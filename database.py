@@ -3,7 +3,7 @@ from deta import Deta
 from dotenv import load_dotenv
 
 #--loading deta connection (database)
-load_dotenv("keyholder.env")
+load_dotenv(".env")
 DETA_PROJECT_KEY = os.getenv("DETA_KEY")
 
 
